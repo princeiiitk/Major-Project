@@ -249,19 +249,13 @@ export default function App() {
   const numQuestions = questions.length;
   const maxPossiblePoints = questions.reduce((prev, curr) => prev + curr.points, 0);
 
-  useEffect(
-    function () {
-      // fetch('http://localhost:8000/questions')
-      // .then((res)=>res.json())
-      // .then((data)=>dispatch({type:'dataRecieved',payload:data}))
-      // .catch(()=>dispatch({type:'dataFailed'}));
-    }, [])
+
 
 
     return (
       <div className='app'>
-        {/* <RegistrationPage></RegistrationPage> */}
-      {/* <LoginPage></LoginPage> */}
+        <RegistrationPage></RegistrationPage>
+      <LoginPage></LoginPage>
      
         
         {headerHidden && <HomePage setHeaderHidden={setHeaderHidden} setHomeHidden={setHomeHidden} category={catt} dispatch={dispatch} />}
