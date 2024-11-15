@@ -19,7 +19,7 @@ const [topic, setTopic] = useState("");
   const [curr, setcurr] = useState("");
   const [isTyping, setIsTyping] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  const API_KEY = "AIzaSyDq5Bnj_e6KKyCZ7w_VBec_WnBh0gW_sIs"
+  const API_KEY = "AIzaSyApU9m7lIJvdo2b_wPMZlaJYPFpl_UgN2g"
   const [subject,setSubject] = useState('Science')
   const prompts =[
     [ // Auditory
